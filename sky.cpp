@@ -17,7 +17,7 @@ ClearBackground(BLACK);
 // each star is a dot
 for (const auto &star : stars)
 {
-DrawCircle(star.GetX(), star.GetY(), star.GetBrightness(), WHITE);
+DrawCircle(star.GetX(), star.GetY(), star.GetBrightness(), star.GetColor());
 }
 EndDrawing();
 }
