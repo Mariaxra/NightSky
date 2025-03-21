@@ -21,6 +21,8 @@ int main()
     night.AddStar(Star(526 , 526 , 3));
     night.AddStar(Star(799 , 30 , 3));
 
+  
+
     cout << "The stars:\n";
     night.printStars();
     night.render();
